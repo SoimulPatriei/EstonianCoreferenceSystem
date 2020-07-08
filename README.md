@@ -1,5 +1,5 @@
 ## The Estonian Coreference System
-This is the first version of a machine learning configurable system of pronominal coreference resolution. The system has been tested on **Mac OS X** and **Linux**.
+The first version of a machine learning configurable system of pronominal coreference resolution for the Estonian. The system has been tested on **Mac OS X** and **Linux**.
 
 ### Prerequisites
 1. **Python 3.6.10**. We recommend you install the [Anaconda](https://www.anaconda.com/products/individual) distribution
