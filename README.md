@@ -2,7 +2,7 @@
 The first version of a machine learning configurable system of pronominal coreference resolution for the Estonian. The system has been tested on **Mac OS X** and **Linux**.
 
 ### Prerequisites
-1. **Python 3.6.10**. We recommend you install the [Anaconda](https://www.anaconda.com/products/individual) distribution
+1. **Python 3.6.10**. We recommend to install the [Anaconda](https://www.anaconda.com/products/individual) distribution
 2. **Stanza**.  [Stanza](https://stanfordnlp.github.io/stanza/) is a collection of accurate and efficient tools for many human languages. 
 Install the Stanza model for the Estonian language.
 3. **Scikit-learn**. [Scikit-learn](https://scikit-learn.org/stable/) is the most popular toolkit for machine learning in python. If you have installed Anaconda, you can
