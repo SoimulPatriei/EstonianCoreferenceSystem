@@ -1,0 +1,318 @@
+<?xml version = "1.0"?>
+
+<!-- This document gives the Estonian syntactic functions-->
+<!-- To each tag we assign a number that will be used as a categorical feature by the ML system -->
+<!-- keep gives the part of the tag that should be kept -->
+
+
+<syntactic_functions>
+
+<syntactic_function>
+<name>acl</name>
+<keep>acl</keep>
+<definition>clausal modifier of noun (adjectival clause)</definition>
+<number>1</number>
+</syntactic_function>
+
+<syntactic_function>
+<name>advcl</name>
+<keep>advcl</keep>
+<definition>adverbial clause modifier</definition>
+<number>2</number>
+</syntactic_function>
+
+<syntactic_function>
+<name>advmod</name>
+<keep>advmod</keep>
+<definition>adverbial modifier</definition>
+<number>3</number>
+</syntactic_function>
+
+<syntactic_function>
+<name>amod</name>
+<keep>amod</keep>
+<definition>adjectival modifier</definition>
+<number>4</number>
+</syntactic_function>
+
+<syntactic_function>
+<name>appos</name>
+<keep>appos</keep>
+<definition>appositional modifier</definition>
+<number>5</number>
+</syntactic_function>
+
+<syntactic_function>
+<name>aux</name>
+<keep>aux</keep>
+<definition>auxiliary</definition>
+<number>6</number>
+</syntactic_function>
+
+<syntactic_function>
+<name>case</name>
+<keep>case</keep>
+<definition>case marking</definition>
+<number>7</number>
+</syntactic_function>
+
+<syntactic_function>
+<name>cc</name>
+<keep>cc</keep>
+<definition>coordinating conjunction</definition>
+<number>8</number>
+</syntactic_function>
+
+<syntactic_function>
+<name>ccomp</name>
+<keep>ccomp</keep>
+<definition>clausal complement</definition>
+<number>9</number>
+</syntactic_function>
+
+<syntactic_function>
+<name>compound</name>
+<keep>compound</keep>
+<definition>compound</definition>
+<number>10</number>
+</syntactic_function>
+
+<syntactic_function>
+<name>conj</name>
+<keep>conj</keep>
+<definition>conjunct</definition>
+<number>11</number>
+</syntactic_function>
+
+<syntactic_function>
+<name>cop</name>
+<keep>cop</keep>
+<definition>copula</definition>
+<number>12</number>
+</syntactic_function>
+
+<syntactic_function>
+<name>csubj</name>
+<keep>csubj</keep>
+<definition>clausal subject</definition>
+<number>13</number>
+</syntactic_function>
+
+<syntactic_function>
+<name>dep</name>
+<keep>dep</keep>
+<definition>unspecified dependency</definition>
+<number>14</number>
+</syntactic_function>
+
+<syntactic_function>
+<name>det</name>
+<keep>det</keep>
+<definition>determiner</definition>
+<number>15</number>
+</syntactic_function>
+
+<syntactic_function>
+<name>discourse</name>
+<keep>discourse</keep>
+<definition>discourse element</definition>
+<number>16</number>
+</syntactic_function>
+
+<syntactic_function>
+<name>dislocated</name>
+<keep>dislocated</keep>
+<definition>dislocated elements</definition>
+<number>17</number>
+</syntactic_function>
+
+<syntactic_function>
+<name>fixed</name>
+<keep>fixed</keep>
+<definition>fixed multiword expression</definition>
+<number>18</number>
+</syntactic_function>
+
+<syntactic_function>
+<name>flat</name>
+<keep>flat</keep>
+<definition>flat multiword expression</definition>
+<number>19</number>
+</syntactic_function>
+
+<syntactic_function>
+<name>goeswith</name>
+<keep>goeswith</keep>
+<definition>goes with</definition>
+<number>20</number>
+</syntactic_function>
+
+<syntactic_function>
+<name>list</name>
+<keep>list</keep>
+<definition>list</definition>
+<number>21</number>
+</syntactic_function>
+
+<syntactic_function>
+<name>mark</name>
+<keep>mark</keep>
+<definition>marker</definition>
+<number>22</number>
+</syntactic_function>
+
+<syntactic_function>
+<name>nmod</name>
+<keep>nmod</keep>
+<definition>nominal modifier</definition>
+<number>23</number>
+</syntactic_function>
+
+<syntactic_function>
+<name>nsubj</name>
+<keep>nsubj</keep>
+<definition>nominal subject</definition>
+<number>24</number>
+</syntactic_function>
+
+<syntactic_function>
+<name>nummod</name>
+<keep>nummod</keep>
+<definition>numeric modifier</definition>
+<number>25</number>
+</syntactic_function>
+
+<syntactic_function>
+<name>obj</name>
+<keep>obj</keep>
+<definition>object</definition>
+<number>26</number>
+</syntactic_function>
+
+<syntactic_function>
+<name>obl</name>
+<keep>obl</keep>
+<definition>oblique nominal</definition>
+<number>27</number>
+</syntactic_function>
+
+<syntactic_function>
+<name>orphan</name>
+<keep>orphan</keep>
+<definition>orphan</definition>
+<number>28</number>
+</syntactic_function>
+
+<syntactic_function>
+<name>parataxis</name>
+<keep>parataxis</keep>
+<definition>parataxis</definition>
+<number>29</number>
+</syntactic_function>
+
+<syntactic_function>
+<name>punct</name>
+<keep>punct</keep>
+<definition>punctuation</definition>
+<number>30</number>
+</syntactic_function>
+
+<syntactic_function>
+<name>reparandum</name>
+<keep>reparandum</keep>
+<definition>overridden disfluency</definition>
+<number>31</number>
+</syntactic_function>
+
+<syntactic_function>
+<name>root</name>
+<keep>root</keep>
+<definition>root</definition>
+<number>32</number>
+</syntactic_function>
+
+<syntactic_function>
+<name>vocative</name>
+<keep>vocative</keep>
+<definition>vocative</definition>
+<number>33</number>
+</syntactic_function>
+
+<syntactic_function>
+<name>xcomp</name>
+<keep>xcomp</keep>
+<definition>open clausal complement</definition>
+<number>34</number>
+</syntactic_function>
+
+<syntactic_function>
+<name>acl:relcl</name>
+<keep>acl:relcl</keep>
+<definition>relative clause modifier</definition>
+<number>35</number>
+</syntactic_function>
+
+<syntactic_function>
+<name>cc:preconj</name>
+<keep>cc:preconj</keep>
+<definition>preconjunct</definition>
+<number>36</number>
+</syntactic_function>
+
+<syntactic_function>
+<name>compound:prt</name>
+<keep>compound:prt</keep>
+<definition>separable verb particle</definition>
+<number>37</number>
+</syntactic_function>
+
+<syntactic_function>
+<name>csubj:cop</name>
+<keep>csubj:cop</keep>
+<definition>clausal copular subject</definition>
+<number>38</number>
+</syntactic_function>
+
+<syntactic_function>
+<name>flat:foreign</name>
+<keep>flat:foreign</keep>
+<definition>part of a sequence of foreign words</definition>
+<number>39</number>
+</syntactic_function>
+
+<syntactic_function>
+<name>nsubj:cop</name>
+<keep>nsubj:cop</keep>
+<definition>nominal copular subject</definition>
+<number>40</number>
+</syntactic_function>
+
+<syntactic_function>
+<name>orphan:obl</name>
+<keep>orphan</keep>
+<definition>oblique argument of an elliptical parent</definition>
+<number>41</number>
+</syntactic_function>
+
+<syntactic_function>
+<name>orphan:obj</name>
+<keep>orphan</keep>
+<definition>obj of an elliptical parent</definition>
+<number>42</number>
+</syntactic_function>
+
+<syntactic_function>
+<name>orphan:xcomp</name>
+<keep>orphan</keep>
+<definition>xcomp of an elliptical parent</definition>
+<number>43</number>
+</syntactic_function>
+
+<syntactic_function>
+<name>flat:name</name>
+<keep>flat:name</keep>
+<definition>part of a multi-word name</definition>
+<number>44</number>
+</syntactic_function>
+
+</syntactic_functions>

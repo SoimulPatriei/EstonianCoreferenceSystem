@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- The paths to the embeddings models -->
+<embeddings>
+  <embedding>
+    <name>tkachenko_embedding</name>
+    <path>estonian_resources/estonian_embeddings/lemmas.cbow.s100.w2v.bin</path>
+  </embedding>
+</embeddings>
