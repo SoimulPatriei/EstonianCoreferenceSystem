@@ -204,6 +204,7 @@ def get_maximum_contexts (dict_context) :
 
     return max_before_context,max_after_context
 
+
 def pronominal_coreference_candidate_pairs (dict_info,sentences_list,f_corpus_path):
 
     """Generate the pronominal coreference candidate pairs
@@ -211,6 +212,10 @@ def pronominal_coreference_candidate_pairs (dict_info,sentences_list,f_corpus_pa
 
     dict_features = collections.OrderedDict()
     max_context_before, max_context_after = get_maximum_contexts(dict_info["context"])
+
+    if max_context_before == 0 and max_context_after ==0 :
+        max_context_before=1
+        max_context_after=1
 
     #dictionary holding the single sentences processed
     dict_sentences={}
