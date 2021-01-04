@@ -1,0 +1,123 @@
+12-30 20:14 compute_proportions INFO     Class 0: 5161
+12-30 20:14 compute_proportions INFO     Class 1: 1162
+12-30 20:14 compute_proportions INFO     Proportion 0 to 1 : 4.44
+12-30 20:14 stratified_cross_validation INFO     --- 0 seconds ---
+12-30 20:14 stratified_cross_validation INFO     Read and normalize X and y
+12-30 20:14 stratified_cross_validation INFO     --- 0 seconds ---
+12-30 20:14 imbalanced_classification INFO     
+
+12-30 20:14 imbalanced_classification INFO     Gradient Boosting Classifier	Parameters(random_state=0)
+12-30 20:14 imbalanced_classification INFO     precision 0.9
+12-30 20:14 imbalanced_classification INFO     f1_measure 0.88
+12-30 20:14 imbalanced_classification INFO     --- 3 seconds ---
+12-30 20:14 imbalanced_classification INFO     
+
+12-30 20:14 imbalanced_classification INFO     XGBoost 	Parameters(default)
+12-30 20:14 imbalanced_classification INFO     precision 0.91
+12-30 20:14 imbalanced_classification INFO     f1_measure 0.89
+12-30 20:14 imbalanced_classification INFO     --- 1 seconds ---
+12-30 20:14 imbalanced_classification INFO     
+
+12-30 20:14 imbalanced_classification INFO     Decision Tree 	Parameters(default)
+12-30 20:14 imbalanced_classification INFO     precision 0.81
+12-30 20:14 imbalanced_classification INFO     f1_measure 0.82
+12-30 20:14 imbalanced_classification INFO     --- 0 seconds ---
+12-30 20:14 imbalanced_classification INFO     
+
+12-30 20:14 imbalanced_classification INFO     k Nearst Neighbors	Parameters(n_neighbors=3)
+12-30 20:14 imbalanced_classification INFO     precision 0.67
+12-30 20:14 imbalanced_classification INFO     f1_measure 0.7
+12-30 20:14 imbalanced_classification INFO     --- 2 seconds ---
+12-30 20:14 imbalanced_classification INFO     
+
+12-30 20:14 imbalanced_classification INFO     Logistic Regression	Parameters(solver='lbfgs', max_iter=4000)
+12-30 20:14 imbalanced_classification INFO     precision 0.87
+12-30 20:14 imbalanced_classification INFO     f1_measure 0.87
+12-30 20:14 imbalanced_classification INFO     --- 2 seconds ---
+12-30 20:14 imbalanced_classification INFO     
+
+12-30 20:14 imbalanced_classification INFO     Dummy Classifier	Parameters((strategy='stratified')
+12-30 20:14 imbalanced_classification INFO     precision 0.17
+12-30 20:14 imbalanced_classification INFO     f1_measure 0.17
+12-30 20:14 imbalanced_classification INFO     --- 0 seconds ---
+12-30 20:14 balanced_classification logistic_regression INFO     weight classification
+12-30 20:14 balanced_classification logistic_regression INFO     
+
+12-30 20:14 balanced_classification logistic_regression INFO     Logistic Regression	solver='lbfgs', max_iter=4000, class_weight={0: 1, 1: 5})
+12-30 20:14 balanced_classification logistic_regression INFO     precision 0.78
+12-30 20:14 balanced_classification logistic_regression INFO     f1_measure 0.85
+12-30 20:14 balanced_classification logistic_regression INFO     --- 3 seconds ---
+12-30 20:14 random_undersampling INFO     random_state=0, sampling_strategy=0.5
+12-30 20:14 random_undersampling INFO     random_state=0, sampling_strategy=0.5
+12-30 20:14 random_undersampling INFO     random_state=0, sampling_strategy=0.5
+12-30 20:14 random_undersampling INFO     random_state=0, sampling_strategy=0.5
+12-30 20:14 balanced_classification logistic_regression INFO     
+
+12-30 20:14 balanced_classification logistic_regression INFO     undersample Logistic Regression	Parameters(solver='lbfgs', max_iter=4000)
+12-30 20:14 balanced_classification logistic_regression INFO     precision 0.84
+12-30 20:14 balanced_classification logistic_regression INFO     f1_measure 0.87
+12-30 20:14 balanced_classification logistic_regression INFO     --- 1 seconds ---
+12-30 20:14 obersampling_adasyn INFO     ADASYN()
+12-30 20:14 obersampling_adasyn INFO     ADASYN()
+12-30 20:14 obersampling_adasyn INFO     ADASYN()
+12-30 20:14 obersampling_adasyn INFO     ADASYN()
+12-30 20:14 balanced_classification logistic_regression INFO     
+
+12-30 20:14 balanced_classification logistic_regression INFO     oversampleLogistic Regression	Parameters(solver='lbfgs', max_iter=4000)
+12-30 20:14 balanced_classification logistic_regression INFO     precision 0.8
+12-30 20:14 balanced_classification logistic_regression INFO     f1_measure 0.85
+12-30 20:14 balanced_classification logistic_regression INFO     --- 6 seconds ---
+12-30 20:14 balanced_classification INFO     weight classification
+12-30 20:14 balanced_classification INFO     
+
+12-30 20:14 balanced_classification INFO     Gradient Boosting Classifier	Parameters(random_state=0)
+12-30 20:14 balanced_classification INFO     precision 0.9
+12-30 20:14 balanced_classification INFO     f1_measure 0.88
+12-30 20:14 balanced_classification INFO     --- 3 seconds ---
+12-30 20:14 random_undersampling INFO     random_state=0, sampling_strategy=0.5
+12-30 20:14 random_undersampling INFO     random_state=0, sampling_strategy=0.5
+12-30 20:14 random_undersampling INFO     random_state=0, sampling_strategy=0.5
+12-30 20:14 random_undersampling INFO     random_state=0, sampling_strategy=0.5
+12-30 20:14 balanced_classification INFO     
+
+12-30 20:14 balanced_classification INFO     Gradient Boosting Classifier	Parameters(random_state=0)
+12-30 20:14 balanced_classification INFO     precision 0.87
+12-30 20:14 balanced_classification INFO     f1_measure 0.88
+12-30 20:14 balanced_classification INFO     --- 2 seconds ---
+12-30 20:14 obersampling_adasyn INFO     ADASYN()
+12-30 20:15 obersampling_adasyn INFO     ADASYN()
+12-30 20:15 obersampling_adasyn INFO     ADASYN()
+12-30 20:15 obersampling_adasyn INFO     ADASYN()
+12-30 20:15 balanced_classification INFO     
+
+12-30 20:15 balanced_classification INFO     Gradient Boosting Classifier	Parameters(random_state=0)
+12-30 20:15 balanced_classification INFO     precision 0.89
+12-30 20:15 balanced_classification INFO     f1_measure 0.88
+12-30 20:15 balanced_classification INFO     --- 14 seconds ---
+12-30 20:15 balanced_classification INFO     weight classification
+12-30 20:15 balanced_classification INFO     
+
+12-30 20:15 balanced_classification INFO     XGBoost 	Parameters(default)
+12-30 20:15 balanced_classification INFO     precision 0.91
+12-30 20:15 balanced_classification INFO     f1_measure 0.89
+12-30 20:15 balanced_classification INFO     --- 1 seconds ---
+12-30 20:15 random_undersampling INFO     random_state=0, sampling_strategy=0.5
+12-30 20:15 random_undersampling INFO     random_state=0, sampling_strategy=0.5
+12-30 20:15 random_undersampling INFO     random_state=0, sampling_strategy=0.5
+12-30 20:15 random_undersampling INFO     random_state=0, sampling_strategy=0.5
+12-30 20:15 balanced_classification INFO     
+
+12-30 20:15 balanced_classification INFO     XGBoost 	Parameters(default)
+12-30 20:15 balanced_classification INFO     precision 0.87
+12-30 20:15 balanced_classification INFO     f1_measure 0.89
+12-30 20:15 balanced_classification INFO     --- 1 seconds ---
+12-30 20:15 obersampling_adasyn INFO     ADASYN()
+12-30 20:15 obersampling_adasyn INFO     ADASYN()
+12-30 20:15 obersampling_adasyn INFO     ADASYN()
+12-30 20:15 obersampling_adasyn INFO     ADASYN()
+12-30 20:15 balanced_classification INFO     
+
+12-30 20:15 balanced_classification INFO     XGBoost 	Parameters(default)
+12-30 20:15 balanced_classification INFO     precision 0.9
+12-30 20:15 balanced_classification INFO     f1_measure 0.89
+12-30 20:15 balanced_classification INFO     --- 4 seconds ---

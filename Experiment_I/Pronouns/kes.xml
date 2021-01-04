@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!-- This document allows to specify the context for each pronoun 
+The coreference system will always look for referents in the sentence where the pronoun is
+The user can specify how many sentences before and after the pronoun sentence the soreference system can look for referents -->
+<pronouns>
+
+  <!-- sentences_before (look for referent number of sentences before the pronoun sentence) -->
+  <!-- sentences_after (look for referent number of sentences after the pronoun sentence) -->
+  <!-- cataphora (1 if the referent can appear before the pronoun the same sentence) -->
+
+   <pronoun>
+    <literal>kes</literal>
+    <index>4</index>
+    <sentences_before>0</sentences_before>
+    <sentences_after>0</sentences_after>
+    <cataphora>0</cataphora>
+  </pronoun>
+
+
+</pronouns>

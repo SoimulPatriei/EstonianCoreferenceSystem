@@ -1,0 +1,23 @@
+<?xml version = "1.0"?>
+
+<!-- This document gives the configuration files used in Estonian feature computation-->
+
+<estonian_catalog>
+
+<tagset>estonian_configuration_files/estonian_tag_set.xml</tagset>
+
+<syntactic_function>estonian_configuration_files/estonian_syntactic_functions.xml</syntactic_function>
+
+<sentence_context>Experiment_I/Pronouns/tema.xml</sentence_context>
+
+<cases>estonian_configuration_files/estonian_cases.xml</cases>
+
+<embeddings>estonian_configuration_files/estonian_embeddings.xml</embeddings>
+
+<global_mention_scores>estonian_resources/estonian_global_mention_scores/estonian_mentions_score.txt</global_mention_scores>
+
+<eleri_abstractness>estonian_resources/estonian_abstractness_lexicon/abstractness_ET.txt</eleri_abstractness>
+
+<mention_info>estonian_resources/estonian_mentions/estonian_mentions.txt</mention_info>
+
+</estonian_catalog>
